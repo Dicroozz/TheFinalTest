@@ -1,0 +1,15 @@
+STEP-3
+cd FinalTest
+git init
+echo Command.txt > .gitignore
+git add .gitignore
+git add MyFile.txt
+git commit -m "I have added MyFile.txt and excluded Command.txt"
+
+STEP-4
+mkdir Info
+echo. > InfoFile1.txt
+echo. > InfoFile2.txt
+cd ..
+git add Info/InfoFile1.txt
+git add Info/InfoFile2.txt
