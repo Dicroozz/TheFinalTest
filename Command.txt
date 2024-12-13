@@ -13,3 +13,13 @@ echo. > InfoFile2.txt
 cd ..
 git add Info/InfoFile1.txt
 git add Info/InfoFile2.txt
+
+STEP-5
+git config user.name "Vishnu_INFO"
+git add -f Command.txt
+git commit -m "I have updated the Git username and added Command.txt to version control"git status 
+
+STEP 6
+git status
+echo git status >> Command.txt
+I have learned how to track files, initialize a Git repository, and also how to modify my files while excluding some of the files.
